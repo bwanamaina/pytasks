@@ -5,8 +5,8 @@ from bson.objectid import ObjectId
 
 app = Flask(__name__)
 
-username = 'admin'
-password = 'aKR0dzjNIeA2mahG'
+username = 'username'
+password = 'password'
 
 client = MongoClient(
     'mongodb+srv://' + username + ':'+password+'@cluster0-h74u6.mongodb.net')
